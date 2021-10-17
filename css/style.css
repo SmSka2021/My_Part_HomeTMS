@@ -27,7 +27,10 @@
     text-transform: uppercase;
 }
 .what_saying hr{
-    margin: auto;    
+    margin: auto;  
+    width:64px;
+    height: 2px;
+    background-color: #E72424;
 }
 .what_saying p{
     font-size: 14px;
@@ -71,28 +74,28 @@
 }
 .foto_name_user{
     width: 100%;
-    padding-top: 22px;     
-}
+    padding-top: 22px;
+    display: flex; 
+}     
 .foto_name_user img{
-    border-radius: 50%;
-    float: left;  
-    margin-left: 25px;    
+    border-radius: 50%;   
+    margin-left: 25px;   
+    width: 70px;
+    height: 70px;   
 }
-.foto_name_user h5{    
+.name_user h5{    
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;      
     color: #333333;
-    padding-top: 10px;  
-    text-align: right;    
-    padding-right: 50px;    
+    padding-top: 10px;        
+    margin-left: 45px;     
 }
-.foto_name_user p{    
+.name_user p{    
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #86878B;
-    padding-top: 12px;
-    text-align: right;    
-    padding-right: 50px;    
+    padding-top: 12px;      
+    margin-left: 45px;      
 }
