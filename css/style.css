@@ -42,8 +42,7 @@
 }
 .saying_info{
     display: flex;
-    justify-content: space-evenly;
-    /*justify-content: center;*/
+    justify-content: space-evenly;    
     box-sizing:border-box;  
     list-style: none;  
     font-family: "Open Sans", sans-serif; 
@@ -51,12 +50,8 @@
 }
 .kards_saying{    
     margin-top: 67px;
-    width: 298px;
-    /*margin-right: 80px;*/      
+    width: 298px;    
 }
-/*.kards_saying:last-child{ 
-    margin-right: 0;  
-}*/
 .saying{
     width: 298px;
     min-height:110px;
