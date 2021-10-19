@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    flex-wrap: wrap;
 }
    /* raleway-regular - latin */
 @font-face {
@@ -15,7 +16,7 @@
 }
 .what_saying{   
     height: 600px;
-    width: 100%;
+    width: 100%;   
 }
 .what_saying h2{
     padding-top: 80px;
@@ -41,20 +42,21 @@
 }
 .saying_info{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    /*justify-content: center;*/
     box-sizing:border-box;  
     list-style: none;  
     font-family: "Open Sans", sans-serif; 
-    font-style: normal;
+    font-style: normal;   
 }
 .kards_saying{    
     margin-top: 67px;
     width: 298px;
-    margin-right: 80px;
+    /*margin-right: 80px;*/      
 }
-.kards_saying:last-child{ 
-    margin-right: 0;
-}
+/*.kards_saying:last-child{ 
+    margin-right: 0;  
+}*/
 .saying{
     width: 298px;
     min-height:110px;
@@ -62,7 +64,7 @@
     border-radius: 7px;    
 }
 .kards_saying li{
-    float: left;    
+    float: left;      
 }
 .saying p{
     padding-top: 15px;    
